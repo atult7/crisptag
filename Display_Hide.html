@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>click</title>
+  <style>
+           #image{
+                display:none;
+      </style>
+</head>
+  <body>
+      <div>
+           <img src="Staysafe.jpg" id="image" alt="Staysafe" />
+      </div>
+
+        <button type="button" onclick="imageShow()">Display</button>
+        <button type="button" onclick="imagehide()">hide</button>
+      
+       
+       <script>
+             function imageShow(){
+                    document.getElementById('image').style.display = "block";  
+                    }
+
+             function imagehide() {  
+                    document.getElementById('image').style.display = "none"; 
+                    }   
+      </script>
+</body>
+</html>
