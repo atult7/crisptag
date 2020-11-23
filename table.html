@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<h2>Table With Border</h2>
+
+<p>Use the CSS border property to add a border to the table.</p>
+<div class="flex-container">
+<table style="width:100%">
+  <tr <div class="flex-item-left"></div>>
+
+   <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+    <th>Gender</th>  
+
+  </tr>
+
+  <tr <div class="flex-item-right"></div>>
+    <td>Aman</td>
+    <td>Verma</td>
+    <td>22</td>
+    <td>M</td>
+  </tr>
+
+  <tr <div class="flex-item-left"></div>>
+    <td>Atul</td>
+    <td>Tiwari</td>
+    <td>23</td>
+    <td>F</td>
+  </tr>
+  <tr <div class="flex-item-right"></div>>
+    <td>Ankit</td>
+    <td>Singh</td>
+    <td>25</td>
+    <td>M</td>
+  </tr>
+<tr <div class="flex-item-left"></div>>
+    <td>Nilam</td>
+    <td>Singh</td> 
+    <td>25</td>
+    <td>M</td>
+  </tr>
+  <tr <div class="flex-item-right"></div>>
+    <td>will</td>
+    <td>Smith</td>
+    <td>50</td>
+    <td>M</td>
+  </tr>
+  <tr <div class="flex-item-left"></div>>
+    <td>emmy</td>
+    <td>Jackson</td>
+    <td>94</td>
+    <td>F</td>
+  </tr >
+  <tr <div class="flex-item-right"></div>>
+    <td>John</td>
+    <td>carol</td>
+    <td>80</td>
+    <td>M</td>
+  </tr>
+<tr <div class="flex-item-left"></div>>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+    <td>F</td>
+  </tr>
+  <tr <div class="flex-item-right"></div>>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+    <td>F</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
